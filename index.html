@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset=""UTF-8">
-    <meta name=""viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tristan Maksad's Web Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tristan Maksad | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Tristan Maksad's Web Portfolio</h1>
+        <h1>Tristan Maksad | Portfolio</h1>
     </header>
     <div class="theme-container">
         <span id="themeToggle" class="theme-toggle">Dark</span>
@@ -16,85 +16,156 @@
     <section id="intro" class="about">
         <h2>About Me</h2>
         <hr>
-        <p>Hi! I'm Tristan Maksad, born and raised in Brookline, Massachusetts, and now a Computer Engineering Major at the University of Florida. This major has allowed me to express my biggest passions by using problem-solving and analytical thinking to apply my knowledge of software development to other work, hobbies, and more.</p>
-        <p>I have applied programming to many elements of my life, from social aspects by helping develop numerous group-based projects both in and out of school, to musical facets by researching how to implement machine learning into digital audio workstations. Nearly every hobby I pursue, I wish to expand upon through programming. Every software I've used, every language I've learned, and every function I've written has gone beyond the bounds of the programming courses they originated in, becoming something much larger.</p>
-        <p>As a college sophomore, I am seeking internships where I can demonstrate and build on my programming and software engineering skills. I want to walk away from an internship knowing how much I accomplished, learned, and grew as a computer engineer, preparing me for my future career.</p>
+        <p>I am a third-year Computer Engineering student at the University of Florida with primary interests in embedded systems
+        and software development. I enjoy problem-solving through programming and am especially interested in how software
+        interacts with the hardware beneath it. That intersection drew me to computer engineering, as it lets me approach
+        problems from both software and hardware perspectives.</p>
+        <p>My coursework has given me experience across both the software and hardware aspects of computer engineering, through
+        courses such as Microprocessor Applications, Operating Systems, Data Structures and Algorithms, Digital Logic, and
+        Digital Design. Through these courses, labs, and projects, I've worked with languages such as C, C++, and assembly, used
+        Git and GitHub for version control and collaboration, and gained hands-on experience with microcontrollers, digital
+        hardware, and FPGA development. These experiences have strengthened my understanding of how higher-level software
+        depends on lower-level system architecture and hardware.</p>
+        <p>Outside the classroom, I apply programming to ideas that genuinely interest me. One project I am currently developing is
+        HiLo, a web application designed to teach programming concepts progressively through pseudocode, C, and assembly.
+        Developing this project has allowed me to combine web application development with my interest in low-level
+        computing and explore how the same problems can be understood at multiple levels of abstraction.</p>
+        <p>I am currently seeking Summer 2027 internships in software engineering and embedded software development. I aim to apply
+        my computer engineering background to larger-scale projects while contributing the technical skills I have developed
+        through coursework and personal projects. Ultimately, I want an internship to be more than another line on my resume; I
+        want to leave knowing that I contributed to meaningful work, learned from the people working alongside me, and became a
+        stronger engineer as a result.</p>
+
     </section>
     <section id="education" class="education">
         <h2>Education</h2>
         <hr>
         <div>
             <ul>
-                <li>Graduated from Brooklin High School (2020-2024)</li>
-                <ul>
-                    <li>GPA: 3.96</li>
-                    <li>Courses: AP Computer Science A; AP Computer Science Principles</li>
-                </ul>
-                <p></p>
-                <li>Sophomore at University of Florida (2024-2028)</li>
-                <ul>
-                    <li>Bachelor of Science - BS, Computer Engineering</li>
-                    <li>GPA: 4.00</li>
-                    <li>Courses: Operating Systems, Digital Logic and Computer Systems, Data Structures and Algorithms, Introduction to Software Engineering, Introduction to Computer Organization, Applications of Discrete Structures, Programming Fundamentals 2, Programming Fundamentals 1</li>
-                </ul>
+                <li>
+                    University of Florida, Herbert Wertheim College of Engineering (2024-2028)
+                    <ul>
+                        <li>Bachelor of Science in Computer Engineering</li>
+                        <li>GPA: 3.91</li>
+                        <li>Expected Graduation: May 2028</li>
+                        <li>Relevant Courses: Microprocessor Applications, Digital Design, Operating Systems,
+                            Data Structures and Algorithms, Digital Logic and Computer Systems,
+                            Introduction to Computer Organization, Introduction to Signals and Systems</li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </section>
     <section id="projects" class="projects">
         <h2>My Projects</h2>
         <hr>
+    
         <div class="project">
-            <h3>Personal  Website</h3>
-            <p>
-                <ul>
-                    <li>Developed a dynamic web portfolio using HTML/CSS and JavaScript to showcase technical experiences</li>
-                    <li>Deployed via GitHub Pages with streamlined continuous integration and version control</li>
-                    <li>
-                        <a href="https://github.com/tristan-maksad/tristan-maksad.github.io" target="_blank">GitHub Repository</a>
-                    </li>
-                </ul>
-            </p>
+            <h3>HiLo</h3>
+            <p><em>Independent Project | React, TypeScript, CSS, Vite | July 2026 — Present</em></p>
+            <ul>
+                <li>Built and launched an expanding educational web application with 5 interactive lessons that guide users
+                    across 3 levels of abstraction: pseudocode, C, and RISC-V assembly</li>
+                <li>Engineered an interactive lesson interface with dynamic line insertion, removal, reordering, selectable
+                    blanks, and dropdown menus using React and TypeScript</li>
+                <li>Implemented structured answer validation, tiered hints, and persistent lesson progress using
+                    localStorage, and deployed it through GitHub Pages</li>
+                <li>
+                    <a href="https://tristan-maksad.github.io/hilo/" target="_blank">HiLo Website</a>
+                </li>
+                <li>
+                    <a href="https://github.com/tristan-maksad/hilo" target="_blank">GitHub Repository</a>
+                </li>
+            </ul>
         </div>
+    
         <div class="project">
-            <h3>Penguin Playground - Game Catalog</h3>
-            <p> 
-                <ul>
-                    <li>Designed a video game catalog utilizing a 100,000+ cell CSV dataset with dynamic, multi-parameter filtering and sorting</li>
-                    <li>Collaborated in a 3-person GitHub workflow, coordinating commits, merges, and pull requests to integrate frontend UI with backend data structures</li>
-                    <li>Implemented AVL tree–based organization with DFS and BFS traversals to efficiently traverse thousands of game records</li>
-                    <li>
-                        <a href="https://penguin-playground.github.io/" target="_blank">Penguin Playground Website</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/penguin-playground/penguin-playground.github.io" target="_blank">GitHub Repository</a>
-                    </li>
-                </ul>
-            </p>
+            <h3>Embedded Synthesizer</h3>
+            <p><em>Individual Course Project | C, Assembly, ATxmega128A1U | July 2026</em></p>
+            <ul>
+                <li>Developed a 12-note interactive synthesizer with USART keyboard input, DAC audio output, timers,
+                    interrupts, and DMA, validating analog output with a Digilent Analog Discovery using WaveForms</li>
+                <li>Generated sine and exponential-decay waveforms using lookup tables and DMA-driven data transfers,
+                    maintaining note frequencies within &plusmn;2% of target values</li>
+            </ul>
         </div>
+    
+        <div class="project">
+            <h3>WAD Filesystem</h3>
+            <p><em>Individual Course Project | C++, Linux, FUSE | April 2026</em></p>
+            <ul>
+                <li>Built a user-space filesystem in C++ using FUSE from a detailed specification, implementing 6 filesystem
+                    operations for file and directory creation, reading, writing, metadata retrieval, and directory
+                    traversal</li>
+                <li>Parsed binary WAD files into a directory hierarchy using trees, maps, vectors, and stacks, supporting
+                    persistent modifications by updating WAD descriptors, reorganizing stored data, and maintaining file
+                    metadata</li>
+            </ul>
+        </div>
+    
+        <div class="project">
+            <h3>Penguin Playground</h3>
+            <p><em>Group Course Project | C++, HTML/CSS, JavaScript | October 2025 — November 2025</em></p>
+            <ul>
+                <li>Developed a video game catalog from a 100,000+ cell CSV dataset, using GitHub to manage commits, merges,
+                    and pull requests while integrating frontend and backend components</li>
+                <li>Implemented AVL tree-based organization for O(log n) insertion and search, with DFS and BFS traversals
+                    across thousands of game records</li>
+                <li>
+                    <a href="https://penguin-playground.github.io/" target="_blank">Penguin Playground Website</a>
+                </li>
+                <li>
+                    <a href="https://github.com/penguin-playground/penguin-playground.github.io" target="_blank">GitHub
+                        Repository</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <h3>2D Video Game</h3>
+            <p><em>Independent Project | Java, C#, Unity | July 2025 — Present</em></p>
+            <ul>
+                <li>Designed and implemented core gameplay mechanics, including player movement, collision detection, and
+                    camera tracking, using the Unity game engine</li>
+                <li>Collaborating with an expanding team through Unity DevOps to manage version control, team contributions,
+                    and collaborative development</li>
+                <li>Developing additional gameplay systems including screen transitions, area randomization, and enemy
+                    behavior</li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=6UPuIxaDN2I" target="_blank">Developer Update Video</a>
+                </li>
+            </ul>
+            <p>All code, sprites, and animations shown in the linked developer update were designed by me.</p>
+        </div>
+    
         <div class="project">
             <h3>Minesweeper</h3>
-            <p> 
-                <ul>
-                    <li>Designed a Minesweeper game using C++ with dynamic board sizes and randomized mine generation</li>
-                    <li>Utilized SFML to build a leaderboard, responsive interface, and handle user interactions</li>
-                    <li>Implemented a Depth-First Search algorithm to reveal mines, improving gameplay performance</li>
-                    <li>
-                        <a href="https://github.com/tristan-maksad/Minesweeper" target="_blank">GitHub Repository</a>
-                    </li>
-                </ul>
-            </p>
+            <p><em>Independent Project | C++, SFML | April 2025</em></p>
+            <ul>
+                <li>Developed a Minesweeper game in C++ with dynamic board sizes and randomized mine generation</li>
+                <li>Used SFML to build the graphical interface, leaderboard, and user interaction system</li>
+                <li>Implemented a depth-first search algorithm to manage board-reveal behavior during gameplay</li>
+                <li>
+                    <a href="https://github.com/tristan-maksad/Minesweeper" target="_blank">GitHub Repository</a>
+                </li>
+            </ul>
         </div>
+    
         <div class="project">
-            <h3>2D Video Game (In Progress)</h3>
-            <p>
-                <ul>
-                    <li>Designed and implemented core gameplay mechanics, including player movement, collision detection, and camera tracking, using the Unity game engine</li>
-                    <li>Collaborating with an ever-expanding team through Unity DevOps to support version control, manage team contributions, and allow collaborative development</li>
-                    <li>Beginning to implement screen transitions, area randomization, and enemy behavior</li>
-                </ul>
-                There is no efficient way to link the Unity DevOps repository for viewing purposes. In light of this, a video to the first developer update of the game can be viewed <a href="https://www.youtube.com/watch?v=6UPuIxaDN2I" target="_blank">here</a>. All code, sprites, and animations in this preview were solely designed by me.
-            </p>
+            <h3>Personal Portfolio Website</h3>
+            <p><em>Independent Project | HTML/CSS, JavaScript | September 2024 — Present</em></p>
+            <ul>
+                <li>Developed and maintain a personal web portfolio using HTML/CSS and JavaScript to showcase technical
+                    projects, coursework, and experience</li>
+                <li>Deployed the website through GitHub Pages and manage ongoing updates using Git and GitHub version
+                    control</li>
+                <li>
+                    <a href="https://github.com/tristan-maksad/tristan-maksad.github.io" target="_blank">GitHub
+                        Repository</a>
+                </li>
+            </ul>
         </div>
+    
     </section>
     <section id="contact" class="contact">
         <h2>Contact</h2>
@@ -102,6 +173,7 @@
         <p>Phone Number: (617)-893-1742</p>
         <p>Email: <a href="mailto:tristan.maksad@gmail.com">tristan.maksad@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/tristan-maksad/" target="_blank">tristan-maksad</a></p>
+        <p>GitHub: <a href="https://github.com/tristan-maksad" target="_blank">tristan-maksad</a></p>
     </section>
     <script src="script.js"></script>
 </body>
